@@ -38,7 +38,6 @@ function selectVehicle(type) {
 }
 
 function simulateBackend() {
-    // Bypass backend check for testing
     if(defaultBackendResponse) showPage(4);
 }
 
